@@ -1,0 +1,67 @@
+#File written by LIBUNFOLD3D. Compilation :Nov 19 2015,18:10:47
+mtllib box.mtl
+#begin vertices
+v -19.68504 0 19.68504
+v 19.68504 0 19.68504
+v -19.68504 0 -19.68504
+v 19.68504 0 -19.68504
+v -19.68504 39.37008 19.68504
+v 19.68504 39.37008 19.68504
+v -19.68504 39.37008 -19.68504
+v 19.68504 39.37008 -19.68504
+#end vertices
+
+#begin 14 textures vertices 
+vt 0.2581981 0.7903003 0
+vt 0.7903003 0.5321023 0
+vt 0.4193994 0.5806006 0
+vt 0.5806006 0.370901 0
+vt 0 0.2581981 0
+vt 0.1612013 0.04849839 0
+vt 0.2096997 0.4193994 0
+vt 0.370901 0.2096997 0
+vt 0.04849839 0.629099 0
+vt 1 0.6933035 0
+vt 0.5321023 0 0
+vt 0.8387987 0.9030032 0
+vt 0.629099 0.7418019 0
+vt 0.7418019 0.1612013 0
+#end 14 textures vertices 
+
+#begin 8 normals 
+vn -0.57735 -0.57735 0.57735
+vn -0.57735 -0.57735 -0.57735
+vn 0.57735 -0.57735 -0.57735
+vn 0.57735 -0.57735 0.57735
+vn -0.57735 0.57735 0.57735
+vn 0.57735 0.57735 0.57735
+vn 0.57735 0.57735 -0.57735
+vn -0.57735 0.57735 -0.57735
+#end 8 normals 
+
+#begin 6 faces
+usemtl wire_088144225
+g Box001
+s 2
+f 1/13/1 3/3/1 4/4/1 2/2/1 
+s 4
+f 5/5/1 6/6/1 8/8/1 7/7/1 
+s 8
+f 1/13/1 2/2/1 6/10/1 5/12/1 
+s 16
+f 2/14/1 4/4/1 8/8/1 6/11/1 
+s 32
+f 4/4/1 3/3/1 7/7/1 8/8/1 
+s 64
+f 3/3/1 1/1/1 5/9/1 7/7/1 
+#end 6 faces
+
+#begin properties
+#U3DPROPERTIES_00 table {Mesh table {SymPlane table {Point vector3d 0 0 0  Normal vector3d 1 0 0  Threshold double 0.01 Enabled bool false } Maps table {Density table {PrimType string "Polygon" Size int 1 DefaultValue double 1 ScaleType string "Log" MinValue double 0.1 MaxValue double 4 Data doubles { r 6 1 } } Pin table {PrimType string "Vertex" Size int 1 DefaultValue double 0 ScaleType string "Normalized" MinValue double 0 MaxValue double 1 Data doubles { r 14 0 } } Protect table {PrimType string "Vertex" Size int 1 DefaultValue double 0 ScaleType string "Normalized" MinValue double -1 MaxValue double 1 Data doubles { r 14 0 } } } } }
+#end properties
+
+#begin 0 fatal error vertex (that Unfold3D cannot handle)
+#end 0 fatal error vertex (that Unfold3D cannot handle)
+
+#begin 0 error vertex
+#end 0 error vertex
